@@ -1,0 +1,102 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 50%;
+  }
+
+  .card {
+    width: 70%;
+  }
+}
+
+@media (max-width: 640px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 30%;
+  }
+
+  .card {
+    width: 50%;
+  }
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #7469B6;
+  font-size: 35px;
+}
+
+h2, h3{
+  font-family: "Roboto", sans-serif;
+  color: #2C4E80;
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+  color: #7ABA78;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 300ms ease;
+}
+
+a:hover {
+  color: #FF76CE;
+}
+
+.container {
+  margin: 0px auto;
+  width: 700px;
+}
+
+.card {
+  margin: 0px auto;
+  background: white;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 4px;
+  margin: 40px;
+}
+
+.img-circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.list-inline {
+  list-style: none;
+  display: block;
+  padding: 0px;
+}
+
+.btn-blue {
+  background-color: blue;
+  border-radius: 4px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 40px;
+  color: #7AB2B2;
+}
